@@ -7,10 +7,12 @@
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
 		"test": "vitest",
-		"cf-typegen": "wrangler types"
+		"cf-typegen": "wrangler types",
+		"d1-sync": "d1-sync"
 	},
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.12.4",
+		"@hintergrund/d1-sync": "^1.0.0",
 		"@types/node": "^25.3.5",
 		"typescript": "^5.5.2",
 		"vitest": "~3.2.0",
